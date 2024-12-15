@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_ingredientsActivity"
+        android:icon="@drawable/recipe_icon"
+        android:paddingBottom="16px"
+        android:paddingTop="160px"
+        android:title="@string/nav_ingredients" />
+    <item
+        android:id="@+id/nav_inputMealActivity"
+        android:icon="@drawable/recipe_icon"
+        android:layout_marginBottom="160px"
+        android:paddingTop="160px"
+        android:title="@string/nav_inputmeals" />
+<!--    <item-->
+<!--        android:id="@+id/nav_homeActivity"-->
+<!--        android:icon="@drawable/recipe_icon"-->
+<!--        android:title="@string/nav_home" />-->
+    <item
+        android:id="@+id/nav_userInfoActivity"
+        android:icon="@drawable/recipe_icon"
+        android:title="@string/nav_userinfo"/>
+    <item
+        android:id="@+id/nav_recipeActivity"
+        android:icon="@drawable/recipe_icon"
+        android:title="@string/nav_recipe" />
+    <item
+        android:id="@+id/nav_shoppingListActivity"
+        android:icon="@drawable/recipe_icon"
+        android:title="@string/nav_shoppinglist" />
+</menu>

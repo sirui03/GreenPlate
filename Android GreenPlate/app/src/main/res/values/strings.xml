@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Android GreenPlate</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_ingredients">Ingredients</string>
+    <string name="nav_inputmeals">Input Meals</string>
+    <string name="nav_recipe">Recipe</string>
+    <string name="nav_shoppinglist">Shopping List</string>
+    <string name="nav_userinfo">User Info</string>
+</resources>

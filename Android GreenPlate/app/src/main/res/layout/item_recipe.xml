@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/recipeNameTextView"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toStartOf="@+id/addButton" />
+
+    <TextView
+        android:id="@+id/ingredientCountTextView"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="@android:color/darker_gray"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toStartOf="@+id/addButton" />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Expand"
+        android:layout_marginTop="-50dp"
+        android:layout_marginLeft="280dp" />
+
+    <Button
+        android:id="@+id/cookButton"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Cook"
+        android:layout_marginTop="-50dp"
+        android:layout_marginLeft="180dp" />
+
+    <LinearLayout
+        android:id="@+id/detailsContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+        <!-- TextViews will be added here programmatically -->
+    </LinearLayout>
+
+</LinearLayout>

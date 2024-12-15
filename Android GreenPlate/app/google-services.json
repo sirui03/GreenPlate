@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1004951058585",
+    "project_id": "android-greenplate",
+    "storage_bucket": "android-greenplate.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1004951058585:android:e8d4cdc41314fd2e512008",
+        "android_client_info": {
+          "package_name": "com.example.androidgreenplate"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJ3XJ172lWw68oYVxvrvB_UOcE3-tLtv4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

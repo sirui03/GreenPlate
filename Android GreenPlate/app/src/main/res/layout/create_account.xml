@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/createacc"
+    tools:context=".views.CreateAccountActivity">
+
+    <TextView
+        android:id="@+id/userNameCA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Email"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textAppearance="@style/TextAppearance.Material3.ActionBar.Title"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginVertical="500px"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/black"
+        android:layout_marginStart="50px" />
+
+    <!-- EditText for the Username Input -->
+    <EditText
+        android:id="@+id/usernameText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your email"
+        android:textStyle="italic"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginVertical="490px"
+        android:layout_marginStart="350px" />
+
+    <!-- EditText for the Username Input -->
+
+    <TextView
+        android:id="@+id/passwordCA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="100px"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Password:"
+        android:textAppearance="@style/TextAppearance.Material3.ActionBar.Title"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/userNameCA" />
+
+    <EditText
+        android:id="@+id/passwordText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/userNameCA"
+        android:hint="Enter your Password"
+        android:inputType="textPassword"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginVertical="80px"
+        android:layout_marginStart="350px"/>
+
+    <TextView
+        android:id="@+id/passwordConfirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Password:"
+        app:layout_constraintTop_toBottomOf="@id/passwordCA"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textAppearance="@style/TextAppearance.Material3.ActionBar.Title"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/black"
+        android:layout_marginVertical="100px"
+        android:layout_marginStart="50px"/>
+
+
+
+    <EditText
+        android:id="@+id/confirmPasswordText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/passwordCA"
+        android:hint="Confirm your Password"
+        android:inputType="textPassword"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginVertical="80px"
+        android:layout_marginStart="350px"/>
+
+
+    <TextView
+        android:id="@+id/outputTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_margin="16dp"
+        android:textAppearance="?android:textAppearanceMedium"
+        app:layout_constraintTop_toBottomOf="@id/passwordConfirm"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+    <Button
+        android:id="@+id/createAccountButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="1150px"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:backgroundTint="@color/material_dynamic_neutral20"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:text="Create Account"/>
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="490dp"
+        android:text="back to log in"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:backgroundTint="@color/material_dynamic_neutral20"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:layout_height="wrap_content"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
